@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FFB75E;
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
+    background: linear-gradient(to right, #ED8F03, #FFB75E);
+}
+
+body div.card {
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+    color: black;
+    width: max-content;
+    height: max-content;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 20px 50vh rgba(0,0,0,0.75);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.card p {
+    font-family: 'Lato Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card ul {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card ul a{
+    color: black;
+    text-decoration: none;
+}
+.card ul a li{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    background: transparent;
+    padding: 1px;
+    list-style-type: none;
+    margin-top: 5px;
+    margin: 6px 15px 0px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card ul a li:hover{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
